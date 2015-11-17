@@ -2,7 +2,7 @@
 //  playerView.m
 //  Coursera
 //
-//  Created by Jefferson on 15/11/1.
+//  Created by Jefferson on 15/11/13.
 //  Copyright © 2015年 Jefferson. All rights reserved.
 //
 

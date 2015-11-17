@@ -2,7 +2,7 @@
 //  JFTableViewCell.m
 //  Coursera
 //
-//  Created by Jefferson on 15/10/26.
+//  Created by Jefferson on 15/11/11.
 //  Copyright © 2015年 Jefferson. All rights reserved.
 //
 
