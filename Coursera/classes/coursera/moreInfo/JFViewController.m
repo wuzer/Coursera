@@ -40,13 +40,13 @@
 
 - (void)baseConfig {
     
-    self.playerView.frame = CGRectMake(0, 0, Kwidth, 200);
-    self.playerView.backgroundColor = [UIColor yellowColor];
+//    self.playerView.frame = CGRectMake(0, 0, Kwidth, 200);
+//    self.playerView.backgroundColor = [UIColor yellowColor];
 //    NSLog(@"%s",__func__);
     
-    [self.view addSubview:self.playerView];
+//    [self.view addSubview:self.playerView];
     
-    [self.playerView loadWithVideoId:@"bVMBe50GfnI"];
+//    [self.playerView loadWithVideoId:@"bVMBe50GfnI"];
     
     
     // 添加 tableView
@@ -54,7 +54,8 @@
     video.ele = self.element;
     video.university = self.university;
     
-    video.tableView.frame = CGRectMake(0, CGRectGetMaxY(self.playerView.frame), Kwidth, Kheight - self.playerView.frame.size.height);
+//    video.tableView.frame = CGRectMake(0, CGRectGetMaxY(self.playerView.frame), Kwidth, Kheight - self.playerView.frame.size.height);
+    video.tableView.frame = CGRectMake(0, CGRectGetMaxY(self.playerView.frame), Kwidth, Kheight);
 
     [self.view addSubview:video.tableView];
     

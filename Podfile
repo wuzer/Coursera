@@ -12,3 +12,5 @@ pod "youtube-ios-player-helper", "~> 0.1.4"
 pod 'MJExtension', '~> 3.0.2'
 pod 'Mantle', '~> 2.0.5'
 pod 'Masonry', '~> 0.6.3'
+pod 'UITableView+FDTemplateLayoutCell', '~> 1.4.beta'
+pod 'XCDYouTubeKit', '~> 2.3.3'

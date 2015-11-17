@@ -16,6 +16,9 @@
 @property (nonatomic, copy) NSString *video;
 @property (nonatomic, copy) NSString *photo;
 @property (nonatomic, copy) NSString *aboutTheCourse;
+@property (nonatomic, copy) NSString *language;
+@property (nonatomic, copy) NSString *previewLink;
+@property (nonatomic, copy) NSString *filePath;
 
 + (instancetype)elementsWithDict:(NSDictionary *)dict;
 

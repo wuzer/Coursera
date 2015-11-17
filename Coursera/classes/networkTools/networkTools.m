@@ -15,8 +15,6 @@
 
 @implementation networkTools
 
-
-
 + (instancetype)sharedNetworkTool {
     
     static networkTools *instance = nil;
@@ -40,7 +38,7 @@
         NSArray *elements = responseObject[@"elements"];
         
         NSMutableArray *tempArray = [NSMutableArray array];
-        
+//        NSLog(@"%@",elements.lastObject);
         for (NSDictionary *dic in elements) {
 //            NSLog(@"%@",responseObject);
 //            homeModel *home = [homeModel homeWithDict:dic];

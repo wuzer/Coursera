@@ -25,6 +25,8 @@ PODS:
   - Masonry (0.6.3)
   - MJExtension (3.0.3)
   - MJRefresh (3.0.2)
+  - UITableView+FDTemplateLayoutCell (1.4.beta)
+  - XCDYouTubeKit (2.3.3)
   - youtube-ios-player-helper (0.1.5)
 
 DEPENDENCIES:
@@ -34,6 +36,8 @@ DEPENDENCIES:
   - Masonry (~> 0.6.3)
   - MJExtension (~> 3.0.2)
   - MJRefresh
+  - UITableView+FDTemplateLayoutCell (~> 1.4.beta)
+  - XCDYouTubeKit (~> 2.3.3)
   - youtube-ios-player-helper (~> 0.1.4)
 
 SPEC CHECKSUMS:
@@ -43,6 +47,8 @@ SPEC CHECKSUMS:
   Masonry: ff105a956abcd19a618b2028b121cb638d7a8e2f
   MJExtension: de557e1c48ef3212590d3203764c8003fae68815
   MJRefresh: 85377dc8c70395cf329e102a5c55505ef387c2e1
+  UITableView+FDTemplateLayoutCell: 9d20bf0518f3c01e42ae614243b97f1161063d27
+  XCDYouTubeKit: 3d7a146c19e0364eac42559672a81bb273e32227
   youtube-ios-player-helper: 8706bb155ffee74fbe5f2f5cf41c2dafe60dc155
 
 COCOAPODS: 0.39.0

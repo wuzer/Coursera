@@ -18,13 +18,16 @@
 		843104181BDE63A3004C051B /* NSObject+JFExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 843104161BDE63A3004C051B /* NSObject+JFExtension.m */; };
 		84408E0E1BE608410083EBD6 /* JFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84408E0D1BE608410083EBD6 /* JFViewController.m */; };
 		84408E131BE60EAA0083EBD6 /* playerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84408E121BE60EAA0083EBD6 /* playerView.m */; };
+		8464A33D1BFB15C600A72970 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8464A33C1BFB15C600A72970 /* libsqlite3.tbd */; };
 		84B1BCB21BE75A3F009FD219 /* videoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1BCB11BE75A3F009FD219 /* videoViewController.m */; };
-		84B1BCB51BE75E66009FD219 /* videoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1BCB41BE75E66009FD219 /* videoCell.m */; };
+		84B1BCB51BE75E66009FD219 /* CourseraCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B1BCB41BE75E66009FD219 /* CourseraCell.m */; };
 		84CC620D1BF386C1009156E8 /* JFTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC62041BF386C1009156E8 /* JFTableViewController.m */; };
 		84CC62101BF386C1009156E8 /* JFTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84CC620C1BF386C1009156E8 /* JFTableViewCell.m */; };
 		84E251641BF641BD00A74B8D /* Elements.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E251631BF641BD00A74B8D /* Elements.m */; };
 		84E251671BF642D200A74B8D /* University.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E251661BF642D200A74B8D /* University.m */; };
 		84E251AE1BF8702C00A74B8D /* Coursera.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E251AD1BF8702C00A74B8D /* Coursera.m */; };
+		84E251B01BF8A8F400A74B8D /* CourseraCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E251AF1BF8A8F400A74B8D /* CourseraCell.xib */; };
+		84E251B61BF8F1B200A74B8D /* HTMLLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E251B51BF8F1B200A74B8D /* HTMLLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,10 +51,11 @@
 		84408E0D1BE608410083EBD6 /* JFViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFViewController.m; sourceTree = "<group>"; };
 		84408E111BE60EAA0083EBD6 /* playerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = playerView.h; sourceTree = "<group>"; };
 		84408E121BE60EAA0083EBD6 /* playerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = playerView.m; sourceTree = "<group>"; };
+		8464A33C1BFB15C600A72970 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		84B1BCB01BE75A3F009FD219 /* videoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoViewController.h; sourceTree = "<group>"; };
 		84B1BCB11BE75A3F009FD219 /* videoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoViewController.m; sourceTree = "<group>"; };
-		84B1BCB31BE75E66009FD219 /* videoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = videoCell.h; sourceTree = "<group>"; };
-		84B1BCB41BE75E66009FD219 /* videoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = videoCell.m; sourceTree = "<group>"; };
+		84B1BCB31BE75E66009FD219 /* CourseraCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseraCell.h; sourceTree = "<group>"; };
+		84B1BCB41BE75E66009FD219 /* CourseraCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseraCell.m; sourceTree = "<group>"; };
 		84CC62031BF386C1009156E8 /* JFTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTableViewController.h; sourceTree = "<group>"; };
 		84CC62041BF386C1009156E8 /* JFTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JFTableViewController.m; sourceTree = "<group>"; };
 		84CC620B1BF386C1009156E8 /* JFTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JFTableViewCell.h; sourceTree = "<group>"; };
@@ -62,6 +66,9 @@
 		84E251661BF642D200A74B8D /* University.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = University.m; sourceTree = "<group>"; };
 		84E251AC1BF8702C00A74B8D /* Coursera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Coursera.h; sourceTree = "<group>"; };
 		84E251AD1BF8702C00A74B8D /* Coursera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Coursera.m; sourceTree = "<group>"; };
+		84E251AF1BF8A8F400A74B8D /* CourseraCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CourseraCell.xib; sourceTree = "<group>"; };
+		84E251B41BF8F1B200A74B8D /* HTMLLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLLabel.h; sourceTree = "<group>"; };
+		84E251B51BF8F1B200A74B8D /* HTMLLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLLabel.m; sourceTree = "<group>"; };
 		DE48AB4C58034FD4F1D4DFD8 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -70,6 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8464A33D1BFB15C600A72970 /* libsqlite3.tbd in Frameworks */,
 				201934B4CFB564A0C36E1F95 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -80,6 +88,7 @@
 		00D2022586160E8FCC5CECFB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8464A33C1BFB15C600A72970 /* libsqlite3.tbd */,
 				DE48AB4C58034FD4F1D4DFD8 /* libPods.a */,
 			);
 			name = Frameworks;
@@ -162,14 +171,17 @@
 		8458238A1BDFAB7600519484 /* moreInfo */ = {
 			isa = PBXGroup;
 			children = (
+				84E251B41BF8F1B200A74B8D /* HTMLLabel.h */,
+				84E251B51BF8F1B200A74B8D /* HTMLLabel.m */,
 				84408E0C1BE608410083EBD6 /* JFViewController.h */,
 				84408E0D1BE608410083EBD6 /* JFViewController.m */,
 				84408E111BE60EAA0083EBD6 /* playerView.h */,
 				84408E121BE60EAA0083EBD6 /* playerView.m */,
 				84B1BCB01BE75A3F009FD219 /* videoViewController.h */,
 				84B1BCB11BE75A3F009FD219 /* videoViewController.m */,
-				84B1BCB31BE75E66009FD219 /* videoCell.h */,
-				84B1BCB41BE75E66009FD219 /* videoCell.m */,
+				84B1BCB31BE75E66009FD219 /* CourseraCell.h */,
+				84B1BCB41BE75E66009FD219 /* CourseraCell.m */,
+				84E251AF1BF8A8F400A74B8D /* CourseraCell.xib */,
 			);
 			path = moreInfo;
 			sourceTree = "<group>";
@@ -280,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				843103F31BDE2BB2004C051B /* LaunchScreen.storyboard in Resources */,
+				84E251B01BF8A8F400A74B8D /* CourseraCell.xib in Resources */,
 				843103F01BDE2BB2004C051B /* Assets.xcassets in Resources */,
 				843103EE1BDE2BB2004C051B /* Main.storyboard in Resources */,
 			);
@@ -340,7 +353,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B1BCB51BE75E66009FD219 /* videoCell.m in Sources */,
+				84B1BCB51BE75E66009FD219 /* CourseraCell.m in Sources */,
 				843104181BDE63A3004C051B /* NSObject+JFExtension.m in Sources */,
 				84B1BCB21BE75A3F009FD219 /* videoViewController.m in Sources */,
 				843104171BDE63A3004C051B /* NSArray+Log.m in Sources */,
@@ -350,6 +363,7 @@
 				84E251641BF641BD00A74B8D /* Elements.m in Sources */,
 				84408E0E1BE608410083EBD6 /* JFViewController.m in Sources */,
 				84E251AE1BF8702C00A74B8D /* Coursera.m in Sources */,
+				84E251B61BF8F1B200A74B8D /* HTMLLabel.m in Sources */,
 				84E251671BF642D200A74B8D /* University.m in Sources */,
 				843103E81BDE2BB2004C051B /* AppDelegate.m in Sources */,
 				843103E51BDE2BB2004C051B /* main.m in Sources */,
